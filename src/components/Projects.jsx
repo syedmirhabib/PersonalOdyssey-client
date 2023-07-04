@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Link } from "react-scroll"; // Import Link component from react-scroll
 
 const Projects = () => {
   const projects = [
@@ -47,10 +48,11 @@ const Projects = () => {
               onMouseEnter={() => setHoveredIndex(index)}
               onMouseLeave={() => setHoveredIndex(-1)}
             >
-              <a
-                href={project.liveLink}
-                target="_blank"
-                rel="noreferrer"
+              <Link
+                to={project.liveLink}
+                spy={true}
+                smooth={true}
+                duration={500}
                 className="mb-4"
               >
                 <div className="relative h-96">
@@ -58,12 +60,12 @@ const Projects = () => {
                     src={project.liveLink}
                     title={project.title}
                     className={`w-full h-full object-cover rounded ${
-                      isHovered ? "block" : "hidden"
+                      isHovered ? "scrollable" : "non-scrollable"
                     }`}
                     style={{ position: "absolute", top: 0, left: 0 }}
                   />
                 </div>
-              </a>
+              </Link>
               <h3 className="text-primary font-semibold text-lg">
                 {project.title}
               </h3>
