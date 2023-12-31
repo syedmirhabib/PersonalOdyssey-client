@@ -1,34 +1,20 @@
 {
-  "name": "react-portfolio-project",
-  "private": true,
-  "version": "0.0.0",
-  "type": "module",
+  "name": "personalodyssey-client",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000p\u0000o\u0000r\u0000t\u0000f\u0000o\u0000l\u0000i\u0000o\u0000-\u0000w\u0000e\u0000b\u0000s\u0000i\u0000t\u0000e\u0000-\u0000t\u0000a\u0000i\u0000l\u0000w\u0000i\u0000n\u0000d\u0000\r\u0000 \u0000",
+  "main": "postcss.config.js",
   "scripts": {
-    "dev": "vite",
-    "build": "build:azure",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
-    "preview": "vite preview"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "@heroicons/react": "^2.0.18",
-    "localforage": "^1.10.0",
-    "match-sorter": "^6.3.1",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-router-dom": "^6.11.1",
-    "sort-by": "^0.0.2"
-    "react-scroll": "^1.8.9"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syedmirhabib/PersonalOdyssey.git"
   },
-  "devDependencies": {
-    "@types/react": "^18.0.37",
-    "@vitejs/plugin-react": "^4.0.0",
-    "autoprefixer": "^10.4.14",
-    "eslint": "^8.38.0",
-    "eslint-plugin-react": "^7.32.2",
-    "eslint-plugin-react-hooks": "^4.6.0",
-    "eslint-plugin-react-refresh": "^0.3.4",
-    "postcss": "^8.4.24",
-    "tailwindcss": "^3.3.2",
-    "vite": "^4.3.9"
-  }
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/syedmirhabib/PersonalOdyssey/issues"
+  },
+  "homepage": "https://github.com/syedmirhabib/PersonalOdyssey#readme"
 }
