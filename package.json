@@ -6,8 +6,7 @@
   "main": "postcss.config.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "vite build",
-    "build:azure": "your_azure_build_command_here"
+    "build": "vite build"
   },
   "repository": {
     "type": "git",
